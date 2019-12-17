@@ -10,6 +10,7 @@ function gameReset(){
     scores = [0,0];
     roundScore = 0;
     activePlayer = Math.floor(Math.random()*2);
+    var gamePlaying = true;
     document.querySelector('.dice').style.display = 'none';
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
